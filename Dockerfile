@@ -25,6 +25,7 @@ RUN apt-get -qq update && \
       lib32stdc++6 \
       lib32gcc1 \
       lib32ncurses5 \
+      cmake \
       lib32z1 \
       unzip \
       locales \
