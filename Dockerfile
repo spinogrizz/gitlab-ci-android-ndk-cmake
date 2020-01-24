@@ -26,6 +26,7 @@ RUN apt-get -qq update && \
       lib32gcc1 \
       lib32ncurses5 \
       cmake \
+      ninja-build \
       lib32z1 \
       unzip \
       locales \
