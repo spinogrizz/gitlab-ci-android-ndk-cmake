@@ -1,4 +1,7 @@
-# gitlab-ci-android
+# gitlab-ci-android-ndk-cmake
+This is a form of the original jangrewe docker file, but with NDK and cmake included.
+
+
 This Docker image contains the Android SDK and most common packages necessary for building Android apps in a CI tool like GitLab CI. Make sure your CI environment's caching works as expected, this greatly improves the build time, especially if you use multiple build jobs.
 
 A `.gitlab-ci.yml` with caching of your project's dependencies would look like this:
